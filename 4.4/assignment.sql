@@ -34,7 +34,7 @@ INSERT INTO countries (name) VALUES ('SPAIN');
 
 INSERT INTO addresses (user_id, country_id) VALUES (REFERENCE user_id:1, country_id:1, 'Patrick is from the States');
 INSERT INTO addresses (user_id, country_id) VALUES (REFERENCE user_id:2, country_id:1, 'Jordan is also from the States');
-INSERT INTO addresses (user_id, country_id) VALUES (REFERENCE user_id:2, country_id:3, 'Jordan is in Spain');
+INSERT INTO addresses (user_id, country_id) VALUES (REFERENCE user_id:2, country_id:3, 'Jordan now lives in Spain');
 
 
 SELECT * FROM countries;
